@@ -40,7 +40,12 @@ Damit Elasticsearch in Zukunft Daten bekommt, die wir verarbeiten können, müss
 ## 3.1 OPNSense 
 
 Zuerst müssen wir OPNSense sagen, wohin es seine Daten "Senden" soll. Hierzu gehen wir System / Settings / Logging & targets und Drücken auf das *+*
+Hier gebt ihr Folgende werte ein. (Bei IP bitte eure Elasticsearch IP angeben. Der Port bleibt wie auf dem Foto!)
 
+<img src="https://user-images.githubusercontent.com/79945933/109860290-3d2c1000-7c5e-11eb-861e-13a6322bed88.png" width="200px" style="display: block; margin: audo;" />
+
+
+Unter Applications wählt Ihr die Sachen aus, die OPNSense senden soll.
 
 <img src=" " style="display: block; margin: auto;" />
 
