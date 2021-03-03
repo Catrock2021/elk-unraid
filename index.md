@@ -16,10 +16,10 @@ Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr
 
 ### 2. Wir beginnen mit der Installation von ELK
 
-Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. 
+Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. Wir loggen uns über das Terminal (Mac) oder Putty (Windows) via SSH auf unseren installierten Server ein. Direkt nach der Anmeldung geben wir uns ROOT-Rechte, damit wir dies nicht andauernt während der Installation machen müssen. Dies geht mit dem Befehl ```sudo sudo su 
 
-```1
-Download installer script from pfelk repository
+
+```Download Installer
 wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
 ```
 
