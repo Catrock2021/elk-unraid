@@ -8,7 +8,7 @@ Das komplette Tutorial nutze ich eine VM in Kombination mit Unraid. Ich würde s
 
 In meinem Fall habe ich mir auf meinem Unraid-Server eine VM erstellt. Diese hat 100GB Festplattenspeicher bekommen, 8GB RAM und 4 CPU Kerne. Wir downloaden uns [Ubuntu-Server](https://ubuntu.com/download/server) und installieren dies. Bitte setzt bei dem Punkt SSH einen Haken! Damit wir uns später via Putty etc. auf den Server schalten können. 
 
-<img src="https://user-images.githubusercontent.com/79945933/109850031-5a5ae180-7c52-11eb-90dc-fa3484194fb6.png" style="display: block; margin: auto;" />
+<img src="https://user-images.githubusercontent.com/79945933/109850031-5a5ae180-7c52-11eb-90dc-fa3484194fb6.png" style="display: block; margin: smale;" />
 
 
 
