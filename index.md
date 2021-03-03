@@ -11,10 +11,21 @@ In meinem Fall habe ich mir auf meinem Unraid-Server eine VM erstellt. Diese hat
 <img src="https://user-images.githubusercontent.com/79945933/109850031-5a5ae180-7c52-11eb-90dc-fa3484194fb6.png" width="200px" style="display: block; margin: audo;" />
 
 
-
 WICHTIG
 Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr das ganze auf einer SSD realisieren. Dies schont die HDD's und ist auch noch sehr leise. 
 
+### 2. Wir beginnen mit der Installation von ELK
+
+Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. 
+
+script installation method
+Download installer script from pfelk repository
+$ wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
+Make script executable
+$ chmod +x pfelk-installer.sh
+Run installer script
+$ ./pfelk-installer.sh
+Finish Configuring here
 
 
 <img src=" " style="display: block; margin: auto;" />
