@@ -14,7 +14,8 @@ Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr
 
 
 ```markdown
-Syntax highlighted code block
+Syntax highlighted code block![Logo Präse](https://user-images.githubusercontent.com/79945933/109849225-698d5f80-7c51-11eb-9d39-f3063601553d.png)
+
 
 # Header 1
 ## Header 2
