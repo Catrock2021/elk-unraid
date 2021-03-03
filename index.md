@@ -18,9 +18,11 @@ Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr
 
 Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. 
 
-script installation method
+```1
 Download installer script from pfelk repository
-$ wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
+wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
+```
+
 Make script executable
 $ chmod +x pfelk-installer.sh
 Run installer script
