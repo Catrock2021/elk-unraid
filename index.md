@@ -19,15 +19,16 @@ Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr
 Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. Wir loggen uns über das Terminal (Mac) oder Putty (Windows) via SSH auf unseren installierten Server ein. Direkt nach der Anmeldung geben wir uns ROOT-Rechte, damit wir dies nicht andauernt während der Installation machen müssen. Dies geht mit dem Befehl ```sudo su```
 
 
+Zuerst Laden wir uns das Script auf unseren Server
 ```Download Installer
 wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
 ```
+Dann müssen wir das Script noch ausführbar machen
+```chmod +x pfelk-installer.sh```
 
-Make script executable
-$ chmod +x pfelk-installer.sh
-Run installer script
-$ ./pfelk-installer.sh
-Finish Configuring here
+Nun können wir das Script starten
+```./pfelk-installer.sh```
+
 
 
 <img src=" " style="display: block; margin: auto;" />
