@@ -20,9 +20,8 @@ Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses 
 
 
 Zuerst Laden wir uns das Script auf unseren Server
-```Download Installer
-wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh
-```
+```wget https://raw.githubusercontent.com/pfelk/pfelk/main/etc/pfelk/scripts/pfelk-installer.sh```
+
 Dann müssen wir das Script noch ausführbar machen
 ```chmod +x pfelk-installer.sh```
 
