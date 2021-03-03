@@ -44,11 +44,9 @@ Hier gebt ihr Folgende werte ein. (Bei IP bitte eure Elasticsearch IP angeben. D
 
 <img src="https://user-images.githubusercontent.com/79945933/109860290-3d2c1000-7c5e-11eb-861e-13a6322bed88.png" width="200px" style="display: block; margin: audo;" />
 
+Unter Applications wählt Ihr die Sachen aus, die OPNSense senden soll. Auf dem Foto seht Ihr meine Einstellungen
 
-Unter Applications wählt Ihr die Sachen aus, die OPNSense senden soll.
-
-<img src=" " style="display: block; margin: auto;" />
-
+<img src="https://user-images.githubusercontent.com/79945933/109860508-8bd9aa00-7c5e-11eb-913a-5e249512f821.png" width="200px" style="display: block; margin: audo;" />
 
 ```markdown
 Syntax highlighted code block!
