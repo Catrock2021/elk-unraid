@@ -4,7 +4,7 @@ Ich habe lange versucht, ELK so zum laufen zu bekommen, dass alle Daten von mein
 
 Das komplette Tutorial nutze ich eine VM in Kombination mit Unraid. Ich würde sagen, wir fangen jetzt an!
 
-### 1. Installation von Ubuntu-Server
+## 1. Installation von Ubuntu-Server
 
 In meinem Fall habe ich mir auf meinem Unraid-Server eine VM erstellt. Diese hat 100GB Festplattenspeicher bekommen, 8GB RAM und 4 CPU Kerne. Wir downloaden uns [Ubuntu-Server](https://ubuntu.com/download/server) und installieren dies. Bitte setzt bei dem Punkt SSH einen Haken! Damit wir uns später via Putty etc. auf den Server schalten können. 
 
@@ -14,7 +14,7 @@ In meinem Fall habe ich mir auf meinem Unraid-Server eine VM erstellt. Diese hat
 WICHTIG
 Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr das ganze auf einer SSD realisieren. Dies schont die HDD's und ist auch noch sehr leise. 
 
-### 2. Wir beginnen mit der Installation von ELK
+## 2. Wir beginnen mit der Installation von ELK
 
 Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses Script übernimmt alle benätigten Schritte. Wir loggen uns über das Terminal (Mac) oder Putty (Windows) via SSH auf unseren installierten Server ein. Direkt nach der Anmeldung geben wir uns ROOT-Rechte, damit wir dies nicht andauernt während der Installation machen müssen. Dies geht mit dem Befehl ```sudo su```
 
@@ -33,11 +33,11 @@ Direkt am Anfang werdet ihr gefragt, was Ihr installieren möchtet. Hier wählt 
 Nach der Installation könnt ihr mit http://[Eure-IP]:5601 auf die Kibana-Weboberfläche gehen. (YEAH)!
 
 
-### 3. OPNSense und Sensei einrichten 
+## 3. OPNSense und Sensei einrichten 
 
 Damit Elasticsearch in Zukunft Daten bekommt, die wir verarbeiten können, müssen wir nun 2 Sachen einstellen. 
 
-## 3.1 OPNSense 
+### 3.1 OPNSense 
 
 Zuerst müssen wir OPNSense sagen, wohin es seine Daten "Senden" soll. Hierzu gehen wir System / Settings / Logging & targets und Drücken auf das *+*
 Hier gebt ihr Folgende werte ein. (Bei IP bitte eure Elasticsearch IP angeben. Der Port bleibt wie auf dem Foto!)
