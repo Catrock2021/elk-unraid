@@ -28,6 +28,18 @@ Wir nutzen hierbei ein Script, welches der User a3ilson geschrieben hat. Dieses 
 3. Nun können wir das Script starten
 ```./pfelk-installer.sh```
 
+Direkt am Anfang werdet ihr gefragt, was Ihr installieren möchtet. Hier wählt Ihr Elasticsearch aus (Nummer 2). Nun lasst ihr den Prozess einmal durchlaufen. Kurz vor dem Ende frägt er euch, ob ihr das Script auf dem Server nach der Installation behalten wollt oder nicht. 
+
+Nach der Installation könnt ihr mit http://[Eure-IP]:5601 auf die Kibana-Weboberfläche gehen. (YEAH)!
+
+
+### 3. OPNSense und Sensei einrichten 
+
+Damit Elasticsearch in Zukunft Daten bekommt, die wir verarbeiten können, müssen wir nun 2 Sachen einstellen. 
+
+## 3.1 OPNSense 
+
+Zuerst müssen wir OPNSense sagen, wohin es seine Daten "Senden" soll. Hierzu gehen wir System / Settings / Logging & targets und Drücken auf das *+*
 
 
 <img src=" " style="display: block; margin: auto;" />
