@@ -13,11 +13,11 @@ Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr
 
 
 
-[Logo Präse](https://user-images.githubusercontent.com/79945933/109849225-698d5f80-7c51-11eb-9d39-f3063601553d.png)
+<img src="https://user-images.githubusercontent.com/79945933/109849691-f20c0000-7c51-11eb-940c-d3bd4f398263.png" style="display: block; margin: auto;" />
 
 
 ```markdown
-Syntax highlighted code block![Logo Präse](https://user-images.githubusercontent.com/79945933/109849225-698d5f80-7c51-11eb-9d39-f3063601553d.png)
+Syntax highlighted code block!
 
 
 # Header 1
