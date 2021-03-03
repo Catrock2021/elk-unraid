@@ -2,11 +2,16 @@
 
 Ich habe lange versucht, ELK so zum laufen zu bekommen, dass alle Daten von meiner Sense-Box an mein Unraid gesendet werden. Dies möchte ich im folgenden Artikel mit euch gemeinsam durchgehen. Dies können wir abschließend dann in [Grafana](https://Grafana.com/) einbinden. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Das komplette Tutorial nutze ich eine VM in Kombination mit Unraid. Ich würde sagen, wir fangen jetzt an!
 
-### Markdown
+### 1. Installation von Ubuntu-Server
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In meinem Fall habe ich mir auf meinem Unraid-Server eine VM erstellt. Diese hat 100GB Festplattenspeicher bekommen, 8GB RAM und 4 CPU Kerne. Wir downloaden uns [Ubuntu-Server](https://ubuntu.com/download/server) und installieren dies. Bitte setzt bei dem Punkt SSH einen Haken! Damit wir uns später via Putty etc. auf den Server schalten können. 
+
+WICHTIG
+Da ELK, wenn es richtig läuft, ständig Daten schreibt und löscht, solltet Ihr das ganze auf einer SSD realisieren. Dies schont die HDD's und ist auch noch sehr leise. 
+
+
 
 ```markdown
 Syntax highlighted code block
